@@ -4,3 +4,6 @@ Welcome to the solution for the 3-Column Preview Card Component Challenge! This 
 Project Overview
 
 This project implements a responsive 3-column preview card component based on the provided design. The component adjusts to different screen sizes and includes hover states for interactive elements.
+
+index.html: The main HTML file where the card component is structured.
+styles.css: Contains the CSS styles for the component, including layout, colors, typography, and hover effects.
