@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Lex;
+    src: url(/3-column-preview-card-component-main/font/static/LexendDeca-Regular.ttf);
+}
+@font-face {
+    font-family: Lex2;
+    src: url(/3-column-preview-card-component-main/font/static/LexendDeca-Bold.ttf);
+}
+@font-face {
+    font-family: big;
+    src: url(/3-column-preview-card-component-main/font/Big_Shoulders_Display/static/BigShouldersDisplay-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sedan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    background-color: hsl(31, 77%, 52%);
+    height: 645px;
+}
+
+.container2{
+    background-color: hwb(184 0% 56%);
+    height: 645px;
+}
+
+.container3{
+    background-color: hsl(179, 100%, 13%);
+    height: 645px;
+}
+
+.Se{
+    font-size: 45px;
+    font-family: big;
+    color:white;
+    
+}
+.Su{
+    font-size: 45px;
+    font-family: big;
+    color:white;  
+}
+.Lu{
+    font-size: 45px;
+    font-family: big;
+    color:white;
+    
+}
+
+.B{
+  position: relative;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  width: 190px;
+  bottom: 20px;
+  left: 60px;
+  font-family: lex;
+  font-size: 15px;
+  color: hsl(31, 77%, 52%);
+  cursor: pointer;
+  
+}
+
+.B1{
+  position: relative;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  width: 190px;
+  bottom: 20px;
+  left: 100px;
+  font-family: lex;
+  font-size: 15px;
+  color: hwb(184 0% 56%);
+  cursor: pointer;
+}
+
+.B2{
+  position: relative;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  width: 190px;
+  bottom: 20px;
+  left: 80px;
+  font-family: lex;
+  font-size: 15px;
+  color: hsl(179, 100%, 13%);
+  cursor: pointer;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    font-family: lex;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    line-height: 2;
+    text-align: left;
+    right: 1150px;
+}
+
+.Se{
+    position: relative;
+    top: 100px;
+    left: 75px;
+    max-width: fit-content;
+}
+
+.Scar{
+    position: relative;
+    top: 55px;
+    left: 75px;
+    width: 90px;
+}
+
+@media screen and (max-width:760px) {
+    body{
+        flex-direction: column;
+    }
+
+    .B{
+        left: 100px;
+    }
+
+    .B2{
+        left: 100px;
+    }
+}
